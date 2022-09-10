@@ -1,0 +1,85 @@
+Comments:
+	<!-- some comment -->
+
+Headings:
+	# Heading 1
+	## Heading 2
+	### Heading 3
+	#### Heading 4 ... till 6
+
+Italics:
+	put *on both sides of text*
+    or  put _on both sides of text_
+
+Strong:
+	put double asterisks ** (same as italics)
+	put double underscores __
+
+Strikethrough:
+	~~This text~~ is strikethrough
+
+Horizontal Rule:
+	--- (triple)
+	or 
+	___ (triple)
+
+Escape Characters:
+	to show * - do \*
+	
+Blockquote:
+	> This is a quote.
+
+Links:
+	[Link text](link "Title text" (y'know hover))
+	Ex: [My Github Profile](https://www.github.com/captain-i3ye "captain-i3ye")
+
+Unordered List:
+	* Item 1
+	* Item 2
+	* Item 3
+		* Nested Item 1
+		* Nested Item 2
+
+Ordered List:
+	1. Item 1
+	1. Item 2
+	1. Item 3
+
+Inline Code Block:
+	`<p>This is a paragraph.</p>`
+
+Images:
+	![Image Name](link-to-image)
+
+
+**Github Markdown**
+
+Code Blocks:
+	'''bash
+		some code
+	```
+
+	```javascript (for syntax highlighting and stuffs)
+		
+		function mul(a, b) {
+			return a*b;
+		}
+	```
+
+	```python
+		
+		def mul(a, b):
+			return a*b
+	```
+
+Tables:
+	| Name   | ID |
+	| ------ | -- |
+	| Eli    | 03 |
+	| Jake   | 42 |
+
+
+ Tasklist:
+	* [x] task 1
+	* [] task 2
+	* [] task 3
